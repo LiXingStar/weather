@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位</title>
+    <!--<script src="convertor.js"></script>-->
+	<script>
+//		navigator.geolocation.getCurrentPosition()
+window.onload=function() {
+   var demo=document.getElementById("demo");
+    if(navigator.geolocation){
+        var options = {
+            enableHighAccuracy: true,
+        };
+        navigator.geolocation.getCurrentPosition(successFn,errorFn,options);
+    }else{
+        alert("您的浏览器不支持html5获取地理位置的方法");
+    }
+
+    function successFn(option){
+        var lng = position.coords.longitude;
+        var lat = position.coords.latitude;
+        console.log(lng);
+    }
+    function errorFn(){
+
+    }
+}
+	</script>
+</head>
+<body>
+	<div id="demo">
+
+    </div>
+</body>
+</html>
