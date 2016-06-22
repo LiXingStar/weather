@@ -17,7 +17,7 @@
 }
 .icon-fangzi:before { content: "\e600"; }
 .icon-dingwei:before { content: "\e601"; }
-.icon-jingdian:before { content: "\e602"; }
-.icon-wo:before { content: "\e603"; }
+.icon-jingdian:before { content: "\e602"; display: block;}
+.icon-wo:before { content: "\e603"; display: block;}
 .icon-zixun:before { content: "\e604"; }
-.icon-icon:before { content: "\e605"; }
+.icon-icon:before { content: "\e605";display: block; }

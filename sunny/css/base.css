@@ -8,10 +8,16 @@ img{
 }
 *{
 	box-sizing:border-box;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
 }
 html{
 	font-size:62.5%;
 }
 body{
 	background-color:#fff;
+}
+em,b,strong{
+	font-style: normal;
+	font-weight: normal;
 }

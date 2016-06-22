@@ -1,0 +1,14 @@
+{
+	"index.html": {
+		"resources": [
+			"img/2.png",
+			"img/air.png",
+			"css/index.css",
+			"css/base.css",
+			"img/night_3.jpg",
+			"css/iconfont.css",
+			"img/w33.png",
+			"iconfont/iconfont.woff"
+		]
+	}
+}

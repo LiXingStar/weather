@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H51DBB9BB",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "sunny",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,51 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"img/2.png",
+					"img/air.png",
+					"css/index.css",
+					"css/base.css",
+					"img/night_3.jpg",
+					"css/iconfont.css",
+					"img/w33.png",
+					"iconfont/iconfont.woff"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/bg_overcast.jpg",
+				"iconfont/iconfont.svg",
+				"img/bg_thunder_storm.jpg",
+				"img/bg_snow_day.jpg",
+				"img/blur_bg_slight_rain_night.jpg",
+				"img/blur_bg_heavy_rain_night.jpg",
+				"img/bg_sand_storm.jpg",
+				"img/bg_shower_rain_day.jpg",
+				"img/blur_bg_overcast.jpg",
+				"img/bg1_cloudy_night.jpg",
+				"img/blur_bg_haily_rain_day.jpg",
+				"img/blur_bg_shower_rain_day.jpg",
+				"iconfont/iconfont.eot",
+				"iconfont/iconfont.ttf",
+				"img/blur_bg1_cloudy_night.jpg",
+				"img/bg1_cloudy_day.jpg",
+				"img/bg_heavy_rain_night.jpg",
+				"img/blur_bg_thunder_storm.jpg",
+				"img/bg_slight_rain_night.jpg",
+				"img/blur_bg1_cloudy_day.jpg",
+				"img/blur_bg_slight_rain_day.jpg",
+				"img/blur_bg_snow_day.jpg",
+				"img/bg_slight_rain_day.jpg",
+				"img/blur_bg_sand_storm.jpg"
+			]
+		}
+	}
 }
